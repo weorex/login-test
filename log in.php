@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+<div class="login">
+    <h2> Hi how are you today, welcome back</h2>
+
+<form action="login backend.php" method="post">
+
+<div class="form-group">
+    <label for="username" >Enter your user name</label>
+    <input type="text" id="username" name="username">
+
+</div>
+<div class="form-group">
+    <label for="Password" >Enter your password</label>
+    <input type="password" id="password" name="password">
+    
+</div>
+
+    <div class="form-group">
+    <button type="submit" name="submit">Login</button>
+            </div>
+
+</form>
+<p>If you don't have a account  <a href="register.php">Sign up here</a></p>
+
+</div>
+
+
+</body>
+</html>
